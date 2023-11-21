@@ -3,87 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Becky.L Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <title style="font-family: Courier New;">Becky.L Portfolio</title>
 </head>
-
-<style>
-    table, th, td {
-      border:1px solid black;
-    }
-    </style>
-
-<style>
-    aside, article{
-      float:left;
-      border:0px solid #ffffff;
-      height:200px;
-      padding:10px;
-    }
-  </style>
-
-<body>
-    <header id="page_top">
-        <h1>Portfolio</h1>
-        <section style="background-color:rgba(255, 220, 79, 0.287);">
-        <h2>Becky Li</h2>
+<body id="page_top">
+    <picture>    
+        <img src="Images/beckybanner_full.png" alt="portfolio_banner">
+    </picture>
+    <header>
+        <div id="contact">
+            <ul>   
+                <li><a href="https://wa.me/18259459130" target="_blank">
+                    <img src="Images/whatsapp_icon.png" alt="whatsapp"></a></li>
+                <li><a href="mailto:puiki.li@edu.sait.ca" target="_blank">
+                    <img src="Images/email_icon.png" alt="email"></a></li>
+                <li><a href="https://www.linkedin.com/in/pui-ki-li-2294ab1a6" target="_blank">
+                    <img src="Images/linkedin_icon.png" alt="linkedin"></a></li>
+                <li><a href="https://github.com/BeckyStitchs/PersonalPortfolio" target="_blank">
+                    <img src="Images/github_icon.png" alt="github"></a></li>
+            </ul>
+        </div>
+        <div id="navigator">
             <nav>
                 <ul>
                     <li><a href="#aboutme">About Me</a></li>
-                    <li><a href="#myhobbies">My Hobbies</a></li>
-                    <li><a href="#mygoals">My Goals</a></li>
-                    <li><a href="#myworkexperiences">My Work Experience</a></li>
-                    <li><a href="#contactinformation">Contact Information</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#goals">Goals</a></li>
+                    <li><a href="#workexperiences">Work Experience</a></li>
                 </ul>
             </nav>
-        </section>
+        </div>
     </header>
     <main>
-        <section style="background-color:rgba(79, 202, 255, 0.169);">
+        <section>
             <a id="aboutme"></a>
-            <h2>About Me</h2>
-                <div align="left">
-                    <img src="Images/profile_picture.png" width="100" 
-                    height="100" alt="Profile_Picture"/>
-                </div>
-            <aritcle>
-                <p style="text-align:justify;">I have been working in education field as a clerk and IT assistantfor 8 years. During this years, I have completed a par-time bachelorDegree in Digital Media and a part-time Diploma in Computer andElectronic Engineering in Hong Kong. The work experience andstudy qualification provide various opportunities to enhance mytechnical skills, communication skills and relevant knowledge toarchives a success in career. Currently, I quoted my job in HongKong and moved to Calgary for studying my second diplomaprogramme in learning UX design which hopeful assist my careerspecially to a higher level and identify my position in the industry.</p>
-            </aritcle>
-            <div align="right">
-                <img src="Images/uparrow_icon.jpeg" width="15" 
-                height="25" alt="up_arrow_icon"/> <a href="#page_top">Page Top</a></li>
+            <h2 class="aboutsubtitle">About Me</h2>
+            <div class="aboutcontent">
+                <img src="Images/becky_photo.png" width="100" height="100" alt="profile_picture">
+                <p>I have been working in education field as a clerk and IT assistantfor 8 years. During this years, I have completed a par-time bachelor Degree in Digital Media and a part-time Diploma in Computer and Electronic Engineering in Hong Kong. The work experience and study qualification provide various opportunities to enhance my technical skills, communication skills and relevant knowledge toarchives a success in career. Currently, I quited my job in Hong Kong and moved to Calgary for studying my second diploma programme in learning UX design which hopeful assist my career specially to a higher level and identify my position in the industry.</p>
+            </div>
+            <div class="pageup">
+                <img src="Images/pageup_icon.png" width="30" height="30" alt="uprrow_icon"> 
+                <a href="#page_top">Page Top</a>
             </div>
         </section>
-
-        <section style="background-color:rgba(255, 220, 79, 0.287);">
-            <a id="myhobbies"></a>
-            <h2>My Hobbies</h2>
-                <ul>
-                    <li>Gymnastics</li>
-                    <li>Cooking</li>
-                    <li>Watching Netflix / Animation</li>
-                    <li>Reading Novels</li>
-                </ul>
-            <div align="right">
-                <img src="Images/uparrow_icon.jpeg" width="15" 
-                height="25" alt="up_arrow_icon"/> <a href="#page_top">Page Top</a></li>
+        <section>
+            <a id="hobbies"></a>
+            <h2 class="othersubtitle">Hobbies</h2>
+            <div class="content1">    
+                <figure>
+                    <img src="Images/gym.jpeg" width="100" height="100" alt="gym"> 
+                    <figcaption>Gymnastics</figcaption>
+                </figure>
+                <figure>
+                    <img src="Images/cooking.jpeg" width="100" height="100" alt="cooking"> 
+                    <figcaption>Cooking</figcaption>
+                </figure>
+                <figure>
+                    <img src="Images/watching.jpeg" width="100" height="100" alt="watching videos"> 
+                    <figcaption>Watching Videos</figcaption>
+                </figure>
+                <figure>
+                    <img src="Images/reading.jpeg" width="100" height="100" alt="reading"> 
+                    <figcaption>Reading Novels</figcaption>
+                </figure>
+            </div>
+                <div class="pageup">
+                    <img src="Images/pageup_icon.png" width="30" height="30" alt="uparrow_icon">  
+                    <a href="#page_top">Page Top</a>
+                    </div>
+        </section>
+        <section>
+            <a id="goals"></a>
+            <h2 class="othersubtitle">Goals</h2>
+            <div class="content2"> 
+                <p>After finished the Interactive Design Diploma, I would like to work in the field of UX desgin or video production industry to gain work experience and landed in Canada.</p>
+            </div> 
+            <div class="pageup">
+                <img src="Images/pageup_icon.png" width="30" height="30" alt="uparrow_icon"> 
+                <a href="#page_top">Page Top</a>
             </div>
         </section>
-
-        <section style="background-color:rgba(79, 202, 255, 0.169);">
-            <a id="mygoals"></a>
-            <h2>My Goals</h2>
-            <p style="text-align:justify;">After finished the Interactive Design Diploma, I would like to work in the field of UX desgin or video production industry to gain work experience and Landed in Canada.</p>
-            <div align="right">
-                <img src="Images/uparrow_icon.jpeg" width="15" 
-                height="25" alt="up_arrow_icon"/> <a href="#page_top">Page Top</a></li>
-            </div>
-        </section>
-
-        <section style="background-color:rgba(255, 220, 79, 0.287);">
-            <a id="myworkexperiences"></a>
-            <h2>My Work Experiences</h2>
-            <p style="text-align:justify;">
-                    <table>
+        <section>
+            <a id="workexperiences"></a>
+            <h2 class="othersubtitle">Work Experiences</h2>
+            <div class="content3">
+                <table>
                     <tr>
                         <th>Company</th>
                         <th>Position</th>
@@ -93,7 +98,7 @@
                         <td>S.K.H. Lee Shiu Keung Primary School</td>
                         <td>Information Technology Assistant</td>
                         <td>October 2017 - August 2023</td>
-                    </tr>
+                    </tr>  
                     </table>
                     <h3>Work Duties:</h3>
                     <ol>
@@ -105,34 +110,15 @@
                         <li>Music and computer settings</li>
                         <li>Other tasks assigned by the supervisors</li>
                     </ol>
-            </p>
-            <div align="right">
-                <img src="Images/uparrow_icon.jpeg" width="15" 
-                height="25" alt="up_arrow_icon"/> <a href="#page_top">Page Top</a></li>
             </div>
-        </section>
-
-        <section style="background-color:rgba(79, 202, 255, 0.169);">
-            <a id="contactinformation"></a>
-            <h2>Contact Information</h2>
-            <img src="Images/phone_icon.jpeg" width="20" 
-                    height="20" alt="phone_icon"/> Phone Number:+1 (825) 945-9130
-            <br><img src="Images/email_icon.jpeg" width="20" 
-                    height="20" alt="email_icon"/> Email Address:puiki.li@edu.sait.ca
-            <br>
-            <img src="Images/linkedin_icon.jpeg" width="20" 
-                    height="20" alt="linkedin_icon"/> Linkin Page: <a href="https://www.linkedin.com/in/pui-ki-li-2294ab1a6"target="_blank">https://www.linkedin.com/in/pui-ki-li-2294ab1a6</a>
-            <br>
-                <img src="Images/github_icon.jpeg" width="20" 
-                        height="20" alt="github_icon"/> Github Page: <a href="https://github.com/BeckyStitchs/PersonalPortfolio"target="_blank">https://github.com/BeckyStitchs/PersonalPortfolio</a>
-            <div align="right">
-                <img src="Images/uparrow_icon.jpeg" width="15" 
-                height="25" alt="up_arrow_icon"/> <a href="#page_top">Page Top</a></li>
+            <div class="pageup">
+                <img src="Images/pageup_icon.png" width="30" height="30" alt="uparrow_icon"> 
+                <a href="#page_top">Page Top</a>
             </div>
         </section>    
     </main>
     <footer>
-        <br>&copy; BeckyLi@SAIT, 2023</footer</br>
-        </footer>
+            &copy; BeckyL@SAIT, 2023
+    </footer>
 </body>
 </html>
