@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/main.js"></script>    
     <title style="font-family: Courier New;">Becky.L Portfolio</title>
 </head>
 <body id="page_top">
@@ -39,8 +40,11 @@
             <a id="aboutme"></a>
             <h2 class="aboutsubtitle">About Me</h2>
             <div class="aboutcontent">
-                <img src="Images/becky_photo.png" width="100" height="100" alt="profile_picture">
-                <p>I have been working in education field as a clerk and IT assistantfor 8 years. During this years, I have completed a par-time bachelor Degree in Digital Media and a part-time Diploma in Computer and Electronic Engineering in Hong Kong. The work experience and study qualification provide various opportunities to enhance my technical skills, communication skills and relevant knowledge toarchives a success in career. Currently, I quited my job in Hong Kong and moved to Calgary for studying my second diploma programme in learning UX design which hopeful assist my career specially to a higher level and identify my position in the industry.</p>
+                <div class="column">
+                    <p class="row1" id="txt-counter">Number: 0 <span id="evenodd"></span></p>
+                    <img class="row2" id="btn-counter" src="Images/becky_photo.png" width="100" height="100" alt="profile_picture">
+                </div>     
+                    <p>I have been working in education field as a clerk and IT assistantfor 8 years. During this years, I have completed a par-time bachelor Degree in Digital Media and a part-time Diploma in Computer and Electronic Engineering in Hong Kong. The work experience and study qualification provide various opportunities to enhance my technical skills, communication skills and relevant knowledge toarchives a success in career. Currently, I quited my job in Hong Kong and moved to Calgary for studying my second diploma programme in learning UX design which hopeful assist my career specially to a higher level and identify my position in the industry.</p>   
             </div>
             <div class="pageup">
                 <img src="Images/pageup_icon.png" width="30" height="30" alt="uprrow_icon"> 
@@ -53,19 +57,19 @@
             <div class="content1">    
                 <figure>
                     <img src="Images/gym.jpeg" width="100" height="100" alt="gym"> 
-                    <figcaption>Gymnastics</figcaption>
+                    <figcaption id="btn-alert" onmouseover="mouseOver()" onmouseout="mouseOut()">Gymnastics</figcaption>
                 </figure>
                 <figure>
                     <img src="Images/cooking.jpeg" width="100" height="100" alt="cooking"> 
-                    <figcaption>Cooking</figcaption>
+                    <figcaption id="btn-alert2" onmouseover="mouseOver2()" onmouseout="mouseOut()">Cooking</figcaption>
                 </figure>
                 <figure>
                     <img src="Images/watching.jpeg" width="100" height="100" alt="watching videos"> 
-                    <figcaption>Watching Videos</figcaption>
+                    <figcaption id="btn-alert3" onmouseover="mouseOver3()" onmouseout="mouseOut3()">Watching Videos</figcaption>
                 </figure>
                 <figure>
                     <img src="Images/reading.jpeg" width="100" height="100" alt="reading"> 
-                    <figcaption>Reading Novels</figcaption>
+                    <figcaption id="btn-alert4" onmouseover="mouseOver4()" onmouseout="mouseOut4()">Reading Novels</figcaption>
                 </figure>
             </div>
                 <div class="pageup">
@@ -110,6 +114,11 @@
                         <li>Music and computer settings</li>
                         <li>Other tasks assigned by the supervisors</li>
                     </ol>
+                    <div class="number-grid">
+                        <p>Ordered List Table</p>
+                        <ol id="numbers"></ol>
+                        <button class="btn-number" type="button" onclick="generateTable()" >Number Table</button>
+                    </div>
             </div>
             <div class="pageup">
                 <img src="Images/pageup_icon.png" width="30" height="30" alt="uparrow_icon"> 
@@ -118,7 +127,7 @@
         </section>    
     </main>
     <footer>
-            &copy; BeckyL@SAIT, 2023
+            <p>&copy; BeckyL@SAIT, <span id="year"></span></p>
     </footer>
 </body>
 </html>
