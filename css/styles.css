@@ -75,6 +75,7 @@ main {
     list-style: none;
 }
 
+<<<<<<< Updated upstream
 #txt-counter {
     height: 0.5vw;
     width: auto;
@@ -85,6 +86,8 @@ main {
     font-weight: bold;
 }
 
+=======
+>>>>>>> Stashed changes
 .aboutsubtitle {
     margin-top: 5%;
     margin: 0%;
@@ -109,6 +112,7 @@ main {
     text-align: justify;
     line-height: 1.3;
 }
+<<<<<<< Updated upstream
   
 .aboutcontent img {
     height: 13vw;
@@ -118,6 +122,27 @@ main {
     padding-right: 0.5rem;
     padding-left: 0rem;
     margin-top: 1rem;
+=======
+
+#txt-counter {
+    height: 0.5vw;
+    width: auto;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0.2rem;
+    display: flex;
+    color: rgb(253, 75, 173);
+    font-weight: bold;
+}
+
+.aboutcontent img {
+    height: 13vw;
+    width: auto;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-top: 1rem;
+    display: flex;
+>>>>>>> Stashed changes
   }
 
 .column:after {
@@ -264,10 +289,15 @@ main {
     font-family: Copperplate, fantasy;
     font-size: 3vw;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 #numbers {
     list-style: none;
     display: grid;
     text-align: center;
+<<<<<<< Updated upstream
     grid-template-columns: repeat(10, 5vw);
     grid-auto-rows: repeat(10, 20px);
     align-items: center;
@@ -275,30 +305,57 @@ main {
     padding: 0%;
     justify-self: center;
 }
+=======
+    grid-template-columns: repeat(10, 35px);
+    grid-auto-rows: repeat(10, 20px);
+    align-items: center;
+    margin-left: 25%;
+    padding: 0%;
+    justify-self: center;
+}
+
+>>>>>>> Stashed changes
 #numbers li:nth-child(odd){
     background-color: rgba(20, 62, 160, 0.857);
     color: white;
     align-self: center;
     font-family: Arial, sans-serif;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 #numbers li:nth-child(even){
     background-color: rgb(253, 75, 173);
     color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
     align-items: center;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .btn-number {
     background-color: rgba(26, 80, 206, 0.687);
     color: white;
     border-color: none;
+<<<<<<< Updated upstream
     font-size: 1.5vw;
 }
+=======
+}
+
+>>>>>>> Stashed changes
 td:nth-child(even), th:nth-child(even) {
     background-color: rgb(253, 75, 173);
     color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
     text-align: center;
   }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 td:nth-child(odd), th:nth-child(odd) {
     background-color: rgba(20, 62, 160, 0.857);
     color: rgb(255, 255, 255);
@@ -329,8 +386,14 @@ td:nth-child(odd), th:nth-child(odd) {
 footer {
     float: left;
     width: 20%;
+<<<<<<< Updated upstream
     padding: 0.5rem;
     margin: 0.5rem;
+=======
+    padding: 8px;
+    margin: 0.5rem;
+    margin-top:30vw;
+>>>>>>> Stashed changes
     color: rgba(20, 62, 160, 0.857);
     font-size:1.7vw;
     justify-content: center;

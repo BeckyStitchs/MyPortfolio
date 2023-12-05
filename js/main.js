@@ -1,6 +1,10 @@
 //Copyright Year
 const d = new Date();
+<<<<<<< Updated upstream
 document.getElementById("year").innerHTML = d.getFullYear();
+=======
+document.getElementById("demo").innerHTML = d.getFullYear();
+>>>>>>> Stashed changes
 
 //btn-alert + onmouseevent
 btnalert = document.getElementById("btn-alert");
@@ -58,7 +62,11 @@ function mouseOut4() {
     btnalert4.style.color = "RoyalBlue";
 }
 
+<<<<<<< Updated upstream
 // press button to count numbers and show text "even" & "odd"
+=======
+// true if count is perfectly divisible by 2
+>>>>>>> Stashed changes
 let count = 0;
 document.getElementById("btn-counter").onclick = function() {
     const txtcounter = document.getElementById("txt-counter");
@@ -83,6 +91,7 @@ for (let i = 1; i <= 100; i++){
     numbers.appendChild(listItem);
 }
 
+<<<<<<< Updated upstream
 //create button and generate 1~100 numbers into table
 function generateTable() {
     const tbl = document.createElement("table");
@@ -92,14 +101,44 @@ function generateTable() {
       const row = document.createElement("tr");
   
       for (let j = 1; j < 11; j++) {
+=======
+function generateTable() {
+    // creates a <table> element and a <tbody> element
+    const tbl = document.createElement("table");
+    const tblBody = document.createElement("tbody");
+  
+    // creating all cells
+    for (let i = 1; i < 11; i++) {
+      // creates a table row
+      const row = document.createElement("tr");
+  
+      for (let j = 1; j < 11; j++) {
+        // Create a <td> element and a text node, make the text
+        // node the contents of the <td>, and put the <td> at
+        // the end of the table row
+>>>>>>> Stashed changes
         const cell = document.createElement("td");
         const cellText = document.createTextNode(`${i*j}`);
         cell.appendChild(cellText);
         row.appendChild(cell);
+<<<<<<< Updated upstream
       tblBody.appendChild(row);
     }
   
     tbl.appendChild(tblBody);
     document.body.appendChild(tbl);
+=======
+  
+      // add the row to the end of the table body
+      tblBody.appendChild(row);
+    }
+  
+    // put the <tbody> in the <table>
+    tbl.appendChild(tblBody);
+    // appends <table> into <body>
+    document.body.appendChild(tbl);
+    // sets the border attribute of tbl to '0'
+    //tbl.setAttribute("border", "0");
+>>>>>>> Stashed changes
   }
 }
