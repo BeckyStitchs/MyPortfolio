@@ -1,0 +1,365 @@
+/*This portfolio applies colour plattes are as follows:*/
+/*
+white: rgb(255, 255, 255);
+light pink: rgba(255, 215, 237, 0.168);
+margenta: rgb(253, 75, 173);
+light blue: rgba(130, 159, 228, 0.099);
+blue: rgba(26, 80, 206, 0.687);
+dark blue: rgba(20, 62, 160, 0.857);
+*/
+
+
+/* CSS Styling: Body */
+body {
+    overflow: scroll;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+}
+
+body img {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS Styling: Navigation */
+#contact nav {
+    position: relative;
+    font-size: 1vw;
+}
+
+nav ul {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+nav ul li {
+    text-align: right;
+    font-family: Copperplate, fantasy;
+    font-size: 2vw;
+}
+
+nav ul li a {
+    color: rgb(253, 75, 173);
+    margin-right: 0.2rem;
+    padding: 1vw;
+    text-decoration: underline dotted rgba(20, 62, 160, 0.857);
+}
+
+/* CSS Styling: Main */
+main {
+    margin: 0% 2% 0%;
+    padding: 0% 2% 0%;
+    justify-content: center;
+}
+
+/* CSS Styling: Contact */
+#contact ul {
+    position: relative;
+    padding: 0.5vw 1vw 1vw 1vw;
+    margin: 0vw 1vw 1vw 1vw;
+    height: 4vw;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+}
+
+#contact img {
+    width: 50%;
+}
+
+/* CSS Styling: primary Heading h1 */
+h1 {
+    margin: 2vw 2vw 0vw 0vw;
+    padding: 0.5vw 1.5vw 0.5vw;
+    background-color: rgba(26, 80, 206, 0.687);
+    color: rgba(255, 255, 255, 0.921);
+    font-family: "Sofia", sans-serif;
+    font-size: 3vw;
+  }
+
+/* CSS Styling: About Me */
+
+.aboutcontent {
+    border-radius: 2vw;
+    background-color: rgba(255, 215, 237, 0.168);
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5vw 1vw 1vw 1vw;
+    padding: 0.5vw 1vw 1vw 1vw;
+    width: auto;
+    font-family: Arial, sans-serif;
+    font-size: 1.5vw;
+    text-align: justify;
+    line-height: 1.3;
+}
+  
+.aboutcontent img {
+    height: 13vw;
+    width: 13vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 1vw 1vw 1vw;
+    margin: 3vw 0vw;
+  }
+
+.aboutcontent p {
+    height:auto;
+    display: flex;
+    margin: 1vw 1vw 0vw 0vw;
+    padding: 1vw 1vw 0vw 0vw;
+    justify-content: space-between;
+    color: rgba(20, 62, 160, 0.857);
+    line-height: 1.7;
+  }
+
+.column:after {
+    content: "";
+    flex: 50%;
+    clear: both;
+  }
+
+/* CSS Styling: Number Text by Pressing Button */
+#txt-counter {
+    height: 0.5vw;
+    width: auto;
+    padding: 1.5vw 0vw 0vw 2.3vw;
+    margin: 1vw 0vw 0.5vw 0vw;
+    color: rgb(253, 75, 173);
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.othersubtitle {
+    margin-top:1.3rem;
+    margin-bottom: 0rem;
+    padding: 0.3rem;
+    background-color: rgba(26, 80, 206, 0.687);
+    color: rgb(255, 255, 255);
+    font-family: Copperplate, fantasy;
+    font-size: 3vw;
+  }
+
+/* CSS Styling: Hobbies */
+.hobbiescontent {
+    border-radius: 2vw;
+    background-color: rgba(255, 215, 237, 0.168);
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 1vw 1vw 1vw;
+    padding: 1vw 1vw 2vw 2vw;
+    font-family: Arial, sans-serif;
+    font-size: 2vw;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.hobbiescontent figure {
+    height: auto;
+    width:  auto;
+    display: flexbox;
+    padding: 0vw 0vw 0.5vw 0.5vw;
+    margin: 1vw 1vw 0.5vw 0.5vw;
+    justify-content: space-evenly;
+}
+
+.hobbiescontent figure img {
+    border-radius: 2vw;
+}
+
+.hobbiescontent figcaption {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.6vw;
+    color: rgba(20, 62, 160, 0.857)
+}
+
+/* CSS Styling: Goals */
+
+.goalscontent p {
+    border-radius: 2vw;
+    background-color: rgba(255, 215, 237, 0.168);
+    margin: 1vw;
+    padding: 4vw;
+    width: auto;
+    font-family: Arial, sans-serif;
+    color: rgba(20, 62, 160, 0.857);
+    text-align: justify;
+    line-height: 2.5vw;
+    font-size: 1.5vw;
+}
+
+/* CSS Styling: Work Experiences */
+.workcontent table {
+    top: 0px;
+    right: 0px;
+    margin: 1.5vw 0vw 2vw;
+    justify-content: center;
+    width: 98%;
+}
+
+.workcontent th {
+    padding: 2.5vw;
+    background-color: rgb(253, 75, 173);
+    color: rgb(255, 255, 255);
+    line-height: 0.7vw;
+    font-size: 1.8vw;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.workcontent tr {
+    padding: 2vw;
+    background-color: rgba(130, 159, 228, 0.099);
+    color: rgb(253, 75, 173);
+    line-height: 5vw;
+    font-size: 1.5vw;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.workcontent h3 {
+    margin: 0rem;
+    margin-left: 0rem;
+    padding: 2vw 0.5vw;
+    padding-left: 5vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    background-color: rgba(255, 215, 237, 0.168);
+    color: rgba(20, 62, 160, 0.857);
+    font-size:1.5vw;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.workcontent ol {
+    margin: 0rem;
+    margin-left: 0%;
+    padding-left: 7vw;
+    padding-bottom: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    background-color: rgba(255, 215, 237, 0.168);
+    color: rgba(20, 62, 160, 0.857);
+    font-size:2vw;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    font-size: 1.5vw;
+}
+
+/* CSS Styling: Ordered List Table */
+.number-grid p{
+    margin:1.3rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(26, 80, 206, 0.687);
+    color: rgb(255, 255, 255);
+    font-family: Copperplate, fantasy;
+    font-size: 3vw;
+}
+#numbers {
+    list-style: none;
+    display: grid;
+    text-align: center;
+    margin: 0vw 0vw 1vw 17vw;
+    padding: 1vw;
+    grid-template-columns: repeat(10, 5vw);
+    grid-auto-rows: repeat(10, 3vw);
+    background-color: transparent;
+}
+#numbers li:nth-child(odd){
+    background-color: rgba(20, 62, 160, 0.857);
+    color: white;
+    align-self: center;
+    font-family: Arial, sans-serif;
+}
+#numbers li:nth-child(even){
+    background-color: rgb(253, 75, 173);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+.btn-number {
+    background-color: rgba(26, 80, 206, 0.687);
+    color: rgb(255, 255, 255);
+    border-color: none;
+}
+td:nth-child(even), th:nth-child(even) {
+    background-color: rgb(253, 75, 173);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+td:nth-child(odd), th:nth-child(odd) {
+    background-color: rgba(20, 62, 160, 0.857);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+/* CSS Styling: Page Up Button */
+
+.pageup {
+    text-align: right;
+    margin-bottom: 0.5vw;
+    padding: 0.5vw;
+    font-size: 1vw;
+ }
+
+.pageup img{
+     padding: 2px;
+     height: 2vw;
+     width: 1.5vw;
+ }
+ 
+.pageup a{
+     font-family: Copperplate, fantasy;
+     color: rgba(186, 55, 127, 0.772);
+     font-weight:lighter;
+     font-size: 2vw;
+     letter-spacing: -0.07rem;
+ }
+
+/* CSS Styling: Footer */
+footer {
+    float: left;
+    width: auto;
+    padding: 8px;
+    margin: 0.5vw;
+    justify-content: center;
+    color: rgba(20, 62, 160, 0.857);
+    font-size:1.7vw;
+    font-family: Copperplate, fantasy;
+    text-align: left;
+  }
+
+/* CSS Styling: Responsive Screen Sizes with background colour changes */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {background: rgba(255, 215, 237, 0.093);}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    body {background: rgba(253, 200, 75, 0.057);}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body {background: rgba(75, 208, 253, 0.05);}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    body {background: rgba(214, 34, 255, 0.082);}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    body {background: rgba(255, 255, 255, 0.921);}
+  }
